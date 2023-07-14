@@ -1,0 +1,69 @@
+.webpage{
+  
+}
+.centercontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1, h2, h3, p{
+  padding-left: 20px;
+}
+ul {
+  list-style-type: none;
+}
+
+li{
+  border-bottom: 1px solid black;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+li img {
+  width: 50px;
+  float: right;
+  border-radius: 9px;
+}
+
+.toppage {
+  background-image: url("https://images.theconversation.com/files/336133/original/file-20200519-152298-1icmco7.jpg?ixlib=rb-1.1.0&rect=754%2C1166%2C3990%2C1991&q=45&auto=format&w=1356&h=668&fit=crop");
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.buttonalign {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.roleslist {
+  width: 70%;
+  display; flex;
+  margin: 0 auto;
+}
+
+
+
+.worklist{
+    padding-bottom: 20px;
+  }
+
+.sidebyside-sectionhover {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.container-sectionhover {
+    position: relative;
+    width: 100%;
+}
+.container-sectionhover:hover .roomoverlay {
+    opacity: 1;
+}
